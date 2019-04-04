@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
+body
+{
+    padding: 0px;
+    margin: 0px;
+    background-image: url("https://img4.goodfon.com/wallpaper/nbig/1/5d/wood-table-hourglass-sand-clock.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.App {
+  text-align: center;
+  font-size: 35px;
+  width: 40vw;
+  height: auto;
+  margin: 30vh auto;
+}
+
+.App-title{
+  font-size: 55px;
+  font-family: 'ZCOOL XiaoWei', serif;
+}
+
+.Cloack-Days,.Cloack-Hours,.Cloack-Minutes,.Cloack-Seconds{
+  display: inline;
+  margin: 10px;
+  font-family: 'Dancing Script', cursive;
+}
+
+.Deadline-input{
+  font-size: 25px;
+  margin: 5px;
+}
+
+.button{
+  background-color: #c19a6b;
+  border-color: #c19a6b;
+}
+
+.form{
+  justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .App {
+    font-size: 30px;
+    color: white;
+    margin: 0px;
+  }
+  .App-title{
+    font-size: 50px;
+    width: 320px;
+
+  }
+  .Cloack-Days,.Cloack-Hours,.Cloack-Minutes,.Cloack-Seconds{
+    display: block;
+  }
+}
