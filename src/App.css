@@ -30,7 +30,7 @@ body
 }
 
 .Deadline-input{
-  font-size: 25px;
+  font-size: 20px;
   margin: 5px;
 }
 
@@ -39,20 +39,31 @@ body
   border-color: #c19a6b;
 }
 
+.button:hover{
+  background-color: black;
+  border-color: #c19a6b;
+}
+.button::before,.button::after{
+  background-color: #c19a6b;
+  border-color: #c19a6b;
+}
 .form{
   justify-content: center;
 }
 
 @media only screen and (max-width: 600px) {
+  body{
+    background-size:auto;
+  }
   .App {
     font-size: 30px;
-    color: white;
-    margin: 0px;
+    color: black;
+    width: 60vw;
+    margin: 50px 20vw;
   }
   .App-title{
     font-size: 50px;
-    width: 320px;
-
+    color: black;
   }
   .Cloack-Days,.Cloack-Hours,.Cloack-Minutes,.Cloack-Seconds{
     display: block;
