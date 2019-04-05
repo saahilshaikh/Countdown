@@ -2,7 +2,7 @@
   "name": "countdownchamp",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "http://saahilshaikh.github.io/countdownchamp",
+  "homepage" : "http://saahilshaikh.github.io/countdown",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "react": "^16.8.6",
